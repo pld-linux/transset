@@ -10,7 +10,6 @@ Source0:	%{name}-%{version}.tar.bz2
 URL:		http://freedesktop.org/cgi-bin/viewcvs.cgi/xapps/transset/
 BuildRequires:	xorg-lib-libX11-devel
 BuildRequires:	pkgconfig
-Requires:	xorg-lib-libX11
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		%{_usr}/X11R6
