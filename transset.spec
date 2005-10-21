@@ -12,8 +12,6 @@ BuildRequires:	xorg-lib-libX11-devel
 BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		%{_usr}/X11R6
-
 %description
 Simple program to toggle Translucency property.
 
