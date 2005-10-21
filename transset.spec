@@ -8,9 +8,9 @@ Group:		X11
 Source0:	%{name}-%{version}.tar.bz2
 # Source0-md5:	49aacd06de18eddd31d85e15de54a465
 URL:		http://freedesktop.org/cgi-bin/viewcvs.cgi/xapps/transset/
-BuildRequires:	X11-devel >= 1:6.8.0
+BuildRequires:	xorg-lib-libX11-devel
 BuildRequires:	pkgconfig
-Requires:	X11-libs >= 1:6.8.0
+Requires:	xorg-lib-libX11
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		%{_usr}/X11R6
