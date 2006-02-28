@@ -4,12 +4,12 @@ Name:		transset
 Version:	040915
 Release:	1
 License:	MIT
-Group:		X11	
+Group:		X11
 Source0:	%{name}-%{version}.tar.bz2
 # Source0-md5:	49aacd06de18eddd31d85e15de54a465
 URL:		http://freedesktop.org/cgi-bin/viewcvs.cgi/xapps/transset/
-BuildRequires:	xorg-lib-libX11-devel
 BuildRequires:	pkgconfig
+BuildRequires:	xorg-lib-libX11-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
