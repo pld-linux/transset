@@ -1,5 +1,5 @@
 Summary:	Simple program to toggle Translucency property
-Summary(pl):	Program do w³±czania przezroczysto¶ci
+Summary(pl.UTF-8):   Program do wÅ‚Ä…czania przezroczystoÅ›ci
 Name:		transset
 Version:	040915
 Release:	1
@@ -15,8 +15,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Simple program to toggle Translucency property.
 
-%description -l pl
-Program do w³±czania przezroczysto¶ci.
+%description -l pl.UTF-8
+Program do wÅ‚Ä…czania przezroczystoÅ›ci.
 
 %prep
 %setup -q -n %{name}
