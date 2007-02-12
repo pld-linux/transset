@@ -1,5 +1,5 @@
 Summary:	Simple program to toggle Translucency property
-Summary(pl.UTF-8):   Program do włączania przezroczystości
+Summary(pl.UTF-8):	Program do włączania przezroczystości
 Name:		transset
 Version:	040915
 Release:	1
