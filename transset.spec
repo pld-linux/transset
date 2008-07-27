@@ -2,7 +2,7 @@ Summary:	Simple program to toggle Translucency property
 Summary(pl.UTF-8):	Program do włączania przezroczystości
 Name:		transset
 Version:	040915
-Release:	1
+Release:	2
 License:	MIT
 Group:		X11
 Source0:	%{name}-%{version}.tar.bz2
